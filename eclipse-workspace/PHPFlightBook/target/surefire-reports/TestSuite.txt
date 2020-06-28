@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 7, Time elapsed: 25.247 s <<< FAILURE! - in TestSuite
+Travelsite.HomePage.initialize  Time elapsed: 24.398 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:47217
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BIKRAM-PC', ip: '192.168.43.184', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_221'
+Driver info: driver.version: FirefoxDriver
+	at Travelsite.HomePage.initialize(HomePage.java:23)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:47217
+	at Travelsite.HomePage.initialize(HomePage.java:23)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at Travelsite.HomePage.initialize(HomePage.java:23)
+
+Travelsite.validateTitle.initialize  Time elapsed: 24.402 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:36565
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BIKRAM-PC', ip: '192.168.43.184', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_221'
+Driver info: driver.version: FirefoxDriver
+	at Travelsite.validateTitle.initialize(validateTitle.java:21)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:36565
+	at Travelsite.validateTitle.initialize(validateTitle.java:21)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at Travelsite.validateTitle.initialize(validateTitle.java:21)
+
+Travelsite.NaviBar.initialize  Time elapsed: 24.403 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:18314
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BIKRAM-PC', ip: '192.168.43.184', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_221'
+Driver info: driver.version: FirefoxDriver
+	at Travelsite.NaviBar.initialize(NaviBar.java:21)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:18314
+	at Travelsite.NaviBar.initialize(NaviBar.java:21)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at Travelsite.NaviBar.initialize(NaviBar.java:21)
+

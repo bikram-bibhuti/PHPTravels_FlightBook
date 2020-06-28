@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<listeners>
+<listener class-name="Travelsite.Listeners"/>
+</listeners>
+	<test thread-count="5" name="NavigationBar">
+		<classes>
+			<class name="Travelsite.NaviBar" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Title Validation">
+		<classes>
+			<class name="Travelsite.validateTitle" />
+		</classes>
+	</test>
+	<test thread-count="5" name="App Test">
+		<classes>
+			<class name="Travelsite.AppTest" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Home Page Test">
+		<classes>
+			<class name="Travelsite.HomePage" />
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
