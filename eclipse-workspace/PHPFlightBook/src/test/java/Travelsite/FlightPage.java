@@ -38,13 +38,13 @@ public class FlightPage extends BaseFile {
 		// Select passenger details
 		flight.getPersonDetails();
 		// Click on search button
-		flight.getSearch();
+		flight.getSearch();/*
 		// Check the count of flights available in list
 		flight.getSearchList();
 	}
 
 	@AfterTest
 	public void teardown() throws IOException {
-		driver.quit();
+		driver.quit();*/
 	}
 }

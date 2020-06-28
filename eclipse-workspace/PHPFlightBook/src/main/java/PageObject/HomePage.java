@@ -33,7 +33,7 @@ public class HomePage extends BaseFile {
 	@FindBy(xpath = "//input[@id='FlightsDateStart']")
 	private WebElement departDate;
 
-	@FindBy(xpath = "//div[8]/div/div/div[2]/div[contains(text(),'28')]")
+	@FindBy(xpath = "//div[8]/div/div/div[2]/div[contains(text(),'29')]")
 	private WebElement currentDate;
 
 	@FindBy(xpath = "//div[8]/div/div/div[2]/div[contains(text(),'30')]")
